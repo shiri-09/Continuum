@@ -1,0 +1,12 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+*.log
+.runtime/
+*.tsbuildinfo
+.env*
+!.env.example
+
+.continuum/
+user-notes/
