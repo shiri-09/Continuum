@@ -1,0 +1,7 @@
+.intro-pagination{display:flex;gap:10px;justify-content:center;margin:22px 0 24px}
+.intro-pagination span{width:32px;height:3px;border-radius:8px;background:#38383e;transition:background .5s,width .5s}
+.intro-pagination span.active{width:64px;background:#e4e4e8;box-shadow:0 0 16px #ffffff25}
+.onboarding-stage .intro-audio-hint{font-size:13px!important;color:#a5a5af!important;max-width:440px;margin-bottom:10px!important}
+.intro-controls{display:flex;gap:24px;align-items:center;justify-content:center;flex-wrap:wrap}
+.intro-controls .text-button{min-height:40px;color:#bcbcc7;font-size:14px}
+@media(prefers-reduced-motion:reduce){.intro-pagination span{transition:none}}
